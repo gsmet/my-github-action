@@ -1,0 +1,16 @@
+name: 'My Action'
+description: 'Description of my action'
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - run: curl -Ls https://sh.jbang.dev | bash -s - app setup
+      shell: bash
+    - run: ~/.jbang/bin/jbang --repos 'github=https://maven.pkg.github.com/gsmet/my-github-action/' --repos 'mavencentral' org.acme:my-github-action:1.0.0-SNAPSHOT
+      shell: bash
+      env:
+        JSON_INPUTS: ${{ toJSON(inputs) }}
+        GITHUB_TOKEN: ${{ inputs.github-token }}
