@@ -1,0 +1,6 @@
+# NOTE: this file was generated from `module-info.class` by module-services-plugin
+org.jboss.logmanager.configuration.DefaultConfiguratorFactory
+
+# NOTE: this file was generated from `module-info.class` by module-services-plugin
+io.quarkus.bootstrap.logging.EmptyLogConfiguratorFactory
+

@@ -1,0 +1,2 @@
+io.smallrye.graphql.client.impl.typesafe.cdi.TypesafeGraphQLClientExtension
+

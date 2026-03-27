@@ -1,0 +1,2 @@
+io.quarkus.arc.runtime.logging.ArcLogFilterFactory
+

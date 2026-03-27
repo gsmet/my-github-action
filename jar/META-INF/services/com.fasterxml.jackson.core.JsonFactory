@@ -1,0 +1,4 @@
+com.fasterxml.jackson.dataformat.yaml.YAMLFactory
+
+com.fasterxml.jackson.core.JsonFactory
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: my-github-action
+Implementation-Version: 999-SNAPSHOT
+Add-Opens: java.base/java.lang java.base/java.nio java.base/jdk.internal
+ .misc
+Class-Path: 
+Main-Class: io.quarkus.runner.GeneratedMain
+Multi-Release: true
+

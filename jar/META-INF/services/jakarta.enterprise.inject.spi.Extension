@@ -1,0 +1,5 @@
+io.smallrye.graphql.client.impl.typesafe.cdi.TypesafeGraphQLClientExtension
+
+# NOTE: this file was generated from `module-info.class` by module-services-plugin
+io.smallrye.config.inject.ConfigExtension
+

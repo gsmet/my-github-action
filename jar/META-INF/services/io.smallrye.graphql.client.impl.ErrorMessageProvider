@@ -1,0 +1,2 @@
+io.quarkus.smallrye.graphql.client.runtime.QuarkifiedErrorMessageProvider
+io.smallrye.graphql.client.impl.DefaultErrorMessageProvider
