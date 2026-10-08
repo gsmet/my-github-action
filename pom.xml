@@ -9,7 +9,7 @@
     <description>Description of my action</description>
 
     <properties>
-        <compiler-plugin.version>3.15.0</compiler-plugin.version>
+        <compiler-plugin.version>3.16.0</compiler-plugin.version>
         <deploy-plugin.version>3.2.0</deploy-plugin.version>
         <install-plugin.version>3.2.0</install-plugin.version>
         <maven.compiler.release>25</maven.compiler.release>
